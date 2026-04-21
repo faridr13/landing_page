@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5; 
+}
+
+/* Section 1: Header and Hero */
+.hero-section {
+  background-color: #1f2937;
+  color: #fff;
+  padding: 20px 100px 80px; 
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+} 
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+
+}
+.header-links {
+  display: flex;
+  gap: 24px;
+}
+
+.header-links a {
+  color: #e5e7eb;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* Hero Content */
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-text {
+   flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.hero-text p {
+  color: #e5e7eb;
+  margin-bottom: 16px;
+}
+
+.sign-up-button {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+  
+.hero-image-placeholder {
+  background-color: #6b7280;
+  height: 220px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+}
+
+/* Section 2: Information/Features */
+.information-section {
+  text-align: center;
+  padding: 60px 100px;
+}
+
+.information-section h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.info-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  width: 150px;
+}
+
+.card-image-box {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.card-image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Section 3: Quote/Testimonial */
+quote-section {
+  background-color: #e5e7eb;
+  padding: 80px 200px;
+}
+
+.quote-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.quote-text {
+  font-size: 22px;
+  font-style: italic;
+  text-align: center; /* I add with myself. I think the text align center look much better */
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.quote-author {
+  text-align: right;
+  font-weight: bold;
+}
+
+/* Section 4: Call to Action */
+.call-to-action-section {
+  padding: 80px 100px;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 8px;
+  padding: 40px 60px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text h3 {
+  margin-bottom: 8px;
+}
+
+.cta-button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 20px;
+}
